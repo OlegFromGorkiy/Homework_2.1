@@ -52,6 +52,7 @@ public class Main {
         System.out.println(kia);
         Car hyundai = new Car("Hyundai", "Avante", 1.6f, "оранжевый", 2016, "Южная Корея");
         System.out.println(hyundai);
-
+        Car empty = new Car();
+        System.out.println(empty);
     }
 }
